@@ -19,7 +19,9 @@ mybatis:
   type-aliases-package: com.sky.entity
   configuration:
     #开启驼峰命名
-    map-underscore-to-camel-case: true
+#    map-underscore-to-camel-case: true
+
+    mapUnderscoreToCamelCase=true:
 
 logging:
   level:
